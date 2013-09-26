@@ -26,7 +26,8 @@ Proceed to push that to your remote git repository on github.
     git push
 
 Write your sentence here:
-
+This took me hours now to setup on my Mac, whereas it took much less time 
+when I set it all up on my PC. Now I'm hours behind!
 
 ## 1. Play through the first three levels of [Manufactoria](http://pleasingfungus.com/Manufactoria/)
 
