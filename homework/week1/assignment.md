@@ -69,7 +69,7 @@ number stored in this slot":
     07:
     10: 12
     11: 15
-    12:
+    12: 
     13:
     14:
     15:
@@ -78,6 +78,7 @@ number stored in this slot":
 
 Feel free to use the above as space to actually work out the
 answer. What does this output?
+I do not know. I was lost with the 12/15=.08 so.. are we working with Integers or not...? [12] could be considered less than 0 but not really 0 if it is .08.. so I'm lost.
 
 Try the same program with some other inputs in slots 10 and 11.  What
 does this program compute?
@@ -128,9 +129,9 @@ Here's the program:
     17:
 
 What does this output?
-
+I don't even get this one.
 In general, what will this program output, given any input in slot 10?
-
+Not a clue.
 
 ## 4. Reading
 
@@ -142,7 +143,10 @@ Most readings for the beginning of the class will come from this textbook.  You 
 ## 5. Finally:
 
 How much time did this problem set take you?
+6 hours tonite. 
 
 What, if anything, did you have trouble with?
+I didn't understand the "game" even after reading the instructions. I just didn't really get it. I got the but and color pattern idea and putting the conveyor belt on the board ... but from there... I couldn't see what the purpose was.
 
 What, from lecture, would you like us to cover more clearly?
+I'm wondering that myself at this point too.
