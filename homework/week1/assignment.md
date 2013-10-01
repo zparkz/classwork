@@ -58,16 +58,16 @@ exponentiation.  Let's do another problem like that, but with a
 different program.  Remember, square brackets like [this] mean "the
 number stored in this slot":
 
-    00: Store the remainder of [10]/[11] in slot 12
-    01: if [12] is 0 go to step 05
-    02: copy [11] to slot 10
-    03: copy [12] to slot 11
-    04: go to step 00
-    05: output [11]
+    00: Store the remainder of [10]/[11] in slot 12 -- 15/0
+    01: if [12] is 0 go to step 05 -- 0
+    02: copy [11] to slot 10 -- 15
+    03: copy [12] to slot 11 -- 0
+    04: go to step 00 
+    05: output [11] -- 15
     06:
     07:
-    10: 12
-    11: 15
+    10: 12 -- 15
+    11: 15 -- 0
     12: 0
     13:
     14:
@@ -76,8 +76,8 @@ number stored in this slot":
     17:
 
 Feel free to use the above as space to actually work out the
-answer. What does this output?
-
+answer. What does this output? 
+The output is counting 0,1,2,3,4..
 
 Try the same program with some other inputs in slots 10 and 11.  What
 does this program compute?
@@ -110,14 +110,14 @@ Program control:
 
 Here's the program:
 
-    00: STO 0  11     STOre value 0 in slot 11
-    01: STO 1  12     STOre value 1 in slot 12
-    02: ADD 11 12 13  ADD the value at 11 to the value at 12 and store the result in 13
-    03: DEC 10        Subract 1 from the value in 10 and store that back in 10
-    04: MOV 12 11     Copy the value at 12 to also be stored in 11
-    05: MOV 13 12     Copy the value at 13 to also be stored in 12
-    06: JNZ 10 02     Jump to step 02 if the value in 10 is not zero
-    07: OUT 11        Output the vaule in 11
+    00: STO 0  11      
+    01: STO 1  12      
+    02: ADD 11 12 13  
+    03: DEC 10         
+    04: MOV 12 11      
+    05: MOV 13 12      
+    06: JNZ 10 02     
+    07: OUT 11        
     10: 6
     11:
     12:
@@ -127,10 +127,26 @@ Here's the program:
     16:
     17:
 
-What does this output?
+What does this output? ---->> 1
  
+    00: STO 0  11     STOre value 0 in slot 11
+    01: STO 1  12     STOre value 1 in slot 12
+    02: ADD 11 12 13  ADD the value at 11 to the value at 12 and store the result in 13
+    03: DEC 10        Subract 1 from the value in 10 and store that back in 10
+    04: MOV 12 11     Copy the value at 12 to also be stored in 11
+    05: MOV 13 12     Copy the value at 13 to also be stored in 12
+    06: JNZ 10 02     Jump to step 02 if the value in 10 is not zero
+    07: OUT 11        Output the vaule in 11
+    10: 5
+    11: 1
+    12: 1
+    13: 1
+    14:
+    15:
+    16:
+    17:
 In general, what will this program output, given any input in slot 10?
- 
+ 1
 
 ## 4. Reading
 
@@ -142,10 +158,10 @@ Most readings for the beginning of the class will come from this textbook.  You 
 ## 5. Finally:
 
 How much time did this problem set take you?
- 
+ hours off and on all week
 
 What, if anything, did you have trouble with?
- 
+ the game -- I didn't really understand it and tho I will continue "playing it" it might take me weeks to understand how it really works..
 
 What, from lecture, would you like us to cover more clearly?
- 
+I tried to make python script out of both program examples -- but could not get them working --this is what I would like to know and understand --these seem to be "simple programs" and such as I would like to be able to write simple programs when I need them.
