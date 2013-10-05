@@ -7,26 +7,28 @@ Read chapter 2 from [*Think Python: How To Think Like a Computer Scientist*](htt
 First, read [the Python list documentation](http://docs.python.org/tutorial/introduction.html#lists).
 
 Assume that x has been assigned the following list:
-
+ 
     x = [3, 5, 7, 2, 4, 8, 100, 2]
-
+         0- 1- 2- 3- 4- 5-  6-  7
+         1- 2- 3- 4- 5- 6-  7-  8 
 For each of the following, try these in a Python interpreter and then
 describe in English what they mean:
 
     (example) x[-1]
         x[-1] is 2. The index of -1 refers to the last element in the list.
 
-    (a) x[2:4]
-    (b) x[1:]
-    (c) x[:4]
-    (d) x[1:][2]
-    (e) x[2:-2]
-    (f) x[5:3]
-    (g) x[100]
-    (h) x[-100:100]
-    (i) "surprise"[1:4]
+    (a) x[2:4] is 7 and 2. The indices of 2:4 refer to everything in between the second and 5th element in the list.
+    (b) x[1:] includes 5, 7, 2, 4, and 8, 100, 2. The index of 1: refers to all the listed elements starting with and including the 2nd element in the list.
+    (c) x[:4] includes 3, 5, 7, and 2. The index of :4 refers to the first element including the following four in the list.
+    (d) x[1:][2] is 2. The index of 1: and [2] refers to two elements beyond the second element in the list.
+    (e) x[2:-2] includes 7, 2, 4, and 8. The indices of 2: and -2 refer to all the listed elements starting with and including the 3rd element in the list minus the last 2 listed.
+    (f) x[5:3] is an empty bracket. The indices of 5:3 refer to everything in between the 5th and 4rd element, which seem to cancel out so empty brackets are displayed.
+    (g) x[100] is an "Index Error". The index 100 is out of range for this list of 8 elements.
+    (h) x[-100:100] is the full listed elements. The indices of x with -100 and 100 resolve to just x so the full list of elements are displayed
+    (i) "surprise"[1:4] is urp. The indices of 1:4 refer to everything between the 2nd and 5th letter in surprise.
 
 What's the difference between `x[2:3]` and `x[2]`?
+Both produce the same result, but 2:3 refer to everything in between the second element and the fourth element whereas 2 refers to the third element itself.
 
 ## List sorting
 
