@@ -46,8 +46,7 @@ program, you should get output like the following:
     [-5, 1, 2, 3, 10000]
 
 You may want to refer to [this section of the Python
-docs](http://docs.python.org/tutorial/datastructures.html#more-on-lists) for
-handy functions that you can call on lists.
+docs](http://docs.python.org/tutorial/datastructures.html#more-on-lists) for handy functions that you can call on lists.
 
 You can assume that the user of this program will always enter a
 number. Don't worry about handling non-number input.

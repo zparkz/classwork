@@ -20,11 +20,9 @@ this, check out
 [try statements](http://docs.python.org/reference/compound_stmts.html#try)
 """
 
-theFoodlist = [maur:peanut butter]
+theFoodlist = {'spark':jicama, 'maur':peanut butter, 'kathleen':ice cream, 'linda':pulled pork}
 
-print "maur"
+print "What person do you want to know about? " person
+print person "favorite food is: " food_item
 
-theList = [23, 4, -3, 19, 29]
-print "Unsorted list:", theList
-theList.sort()
-print "Sorted:", theList
+ 
